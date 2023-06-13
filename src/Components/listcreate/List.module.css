@@ -1,0 +1,221 @@
+.main_block1 {
+  box-sizing: border-box;
+  margin-top: 1%;
+  height: 40%;
+  width: 100%;
+  background-color: #eceef3;
+  display: flex;
+  flex-direction: column;
+}
+.image_text_voting_block {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.image_text_main_blocks {
+  margin: 0;
+  box-sizing: border-box;
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1%;
+  padding-right: 1%;
+  align-items: center;
+}
+
+.image {
+  height: 75%;
+  width: 13%;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.heading_paragraph_block {
+  display: flex;
+  flex-direction: column;
+  height: 85%;
+  width: 80%;
+  overflow: hidden;
+}
+
+.heading {
+  font-size: 1.3rem;
+  font-weight: 500;
+  height: 60%;
+  color: #36416a;
+}
+
+.paragraphs {
+  font-size: 0.7rem;
+  height: 40%;
+  font-weight: 500;
+}
+
+.voting_main_block {
+  box-sizing: border-box;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1%;
+  align-items: center;
+}
+.voting_icons {
+  height: fit-content;
+}
+
+.voting_icon_and_uparrow_block {
+  width: 7%;
+  height: 75%;
+  border-radius: 8px;
+  background-color: #c7cbd6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.voting_icon {
+  height: 80%;
+}
+.voting_icon_and_uparrow_block span {
+  font-weight: 400;
+  font-size: 80%;
+  font-weight: 600;
+}
+
+.comment_message_edit_main_block {
+  box-sizing: border-box;
+  height: 35%;
+  width: 100%;
+  display: flex;
+  padding-left: 8%;
+  padding-right: 1%;
+  justify-content: space-between;
+}
+.comment_three_block {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.comment_product,
+.comment_category {
+  display: flex;
+  height: 70%;
+  box-sizing: border-box;
+  width: fit-content;
+  margin-left: 1%;
+  background-color: #aabbf7;
+  padding: 3%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: 500;
+  overflow: hidden;
+}
+.comment_block {
+  height: 80%;
+  box-sizing: border-box;
+  width: 32%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.comment_icon {
+  box-sizing: border-box;
+  color: rgb(151, 146, 146);
+  height: 100%;
+}
+.comment_text {
+  color: rgb(149, 144, 144);
+}
+
+.editing_comment_chat_block {
+  box-sizing: border-box;
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.editing_comment_chat_edit_btn {
+  width: 40%;
+  height: 70%;
+  background-color: #36416a;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+}
+
+.editing_comment_chat_text {
+  box-sizing: border-box;
+  font-weight: 500;
+}
+.editing_comment_chat {
+  box-sizing: border-box;
+}
+
+/*  ea input layga user say or add karayga ushka code ha */
+
+.take_input_for_Adding_comment_main_block {
+  height: 50%;
+  width: 100%;
+  background-color: #eceef3;
+  overflow-y: scroll;
+}
+
+.take_input_for_Adding_comment_main_block::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 4px;
+  background-color: #5191ea;
+}
+.take_input_for_Adding_comment_main_block::-webkit-scrollbar-thumb {
+  height: 18px;
+  border-radius: 4px;
+  background-color: rgb(241, 247, 69);
+}
+.take_input_icon_box {
+  box-sizing: border-box;
+  margin-left: 1%;
+  display: flex;
+  width: 98%;
+  height: 30%;
+  border-radius: 22px;
+  justify-content: space-between;
+  padding-left: 2%;
+  padding-right: 1%;
+  background-color: rgb(214, 211, 211);
+  align-items: center;
+}
+.take_input_icon_box input {
+  outline: none;
+  border: none;
+  background-color: none;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 90%;
+  background-color: rgb(214, 211, 211);
+}
+.iconss {
+  font-size: 1.6rem;
+  color: #787a81;
+}
+.list_items {
+  box-sizing: border-box;
+  width: 96%;
+  height: fit-content;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 2%;
+}

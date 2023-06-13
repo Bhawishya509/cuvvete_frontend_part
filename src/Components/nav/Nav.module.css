@@ -1,0 +1,126 @@
+.navbar_main_block {
+  width: 90vw;
+  height: 8vh;
+  background-color: #36416a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  cursor: pointer;
+}
+
+.feedback {
+  box-sizing: border-box;
+  display: inline-block;
+  color: white;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+.photo_icon_main_block {
+  width: 16%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout,
+.hello {
+  color: white;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.image {
+  height: 65%;
+  width: 20%;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login_signup_main_block {
+  box-sizing: border-box;
+  width: 16%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.login {
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+}
+.signup {
+  background: none;
+  height: 55%;
+  width: 50%;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  border: 1.99px solid white;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .login_signup_main_block {
+    box-sizing: border-box;
+    width: 46%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .login {
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .signup {
+    background: none;
+    height: 48%;
+    width: 54%;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    border: 1.99px solid white;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .photo_icon_main_block {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logout {
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+  .hello {
+    display: none;
+  }
+  .image {
+    height: 55%;
+    width: 30%;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
